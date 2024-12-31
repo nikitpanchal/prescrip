@@ -1,0 +1,69 @@
+{
+  "name": "prescrip",
+  "displayName": "prescrip",
+  "packageName": "com.prescrip",
+  "version": "4.0.9",
+  "versionAndroid": "4.0.9",
+  "versionIOS": "4.1.1",
+  "isStagging": false,
+  "reportError": false,
+  "S3BaseUrl": "https://prescripimage.s3.amazonaws.com/",
+  "ioslink": "https://apps.apple.com/in/app/prescrip-e-prescriptions-app/id1475105394",
+  "androidlink": "https://play.google.com/store/apps/details?id=com.prescrip",
+  "cmelink": "http://cms2.prescrip.in/Contact_us.aspx",
+  "reportlink": "http://radiantmobile.prescrip.in/template/report.html",
+  "socketClient": "http://qsftdsjqtpdlfu.prescrip.in:8050/",
+  "doctorBucket": "https://prescripimage.s3.amazonaws.com/doctorimg/",
+  "signBucket": "https://prescripimage.s3.amazonaws.com/drsb8b5c86a-7d4a-11ea-bc55/",
+  "whatsappLink": "whatsapp://send?phone=91",
+  "aboutLink": "https://sites.google.com/view/prescripcme/home",
+  "prescripSite": "https://prescrip.co/",
+  "termsLink": "http://prescrip.in/termsconditions.html",
+  "doctorLogo": "https://s3-ap-southeast-1.amazonaws.com/prescripimage/images/",
+  "doctorProfile": "https://prescripimage.s3.amazonaws.com/doctorimg/",
+  "patientProfile": "https://prescripimage.s3.amazonaws.com/patientimg/",
+  "oneSignalID": "9b4bc7e1-0215-45ea-afeb-b77b801bdbd1",
+  "promoLink": "http://cms2.prescrip.in/Contact_us.aspx",
+  "s3Config": {
+    "keyPrefix": "doctorimg/",
+    "bucket": "prescripimage",
+    "region": "ap-southeast-1",
+    "accessKey": "AKIA2P5O2LH6PGYG3CI3",
+    "secretKey": "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",
+    "successActionStatus": 201,
+    "awsUrl": "s3.amazonaws.com/"
+  },
+  "s3DocSignConfig": {
+    "keyPrefix": "drsb8b5c86a-7d4a-11ea-bc55/",
+    "bucket": "prescripimage",
+    "region": "ap-southeast-1",
+    "accessKey": "AKIA2P5O2LH6PGYG3CI3",
+    "secretKey": "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",
+    "successActionStatus": 201,
+    "awsUrl": "s3.amazonaws.com/"
+  },
+  "staging": {
+    "print": "http://stagingprint.prescrip.in/",
+    "socket": "http://stagingsock.prescrip.in:8050/",
+    "printTemplate": "https://stagingtemplate.prescrip.in/",
+    "baseURL": "https://stagingapi2.prescrip.in/apiv2/",
+    "oneSignalID": "21c4a173-2c48-4618-8c51-a95f3eee175c"
+  },
+  "prod": {
+    "print": "print.prescrip.in",
+    "scoket": "http://qsftdsjqtpdlfu.prescrip.in:8050/",
+    "printTemplate": "https://rx.prescrip.in/",
+    "baseURL": "https://mobiapiv3.prescrip.in/apiv2/",
+    "oneSignalID": "bf071751-bfbb-46f8-9e2c-ba3a06704b6c"
+  },
+  "firebaseConfig": {
+    "apiKey": "AIzaSyBIBj45DqNIRe7YFZYCGnz27Hg_rBPoumA",
+    "authDomain": "myapp-project-123.firebaseapp.com",
+    "databaseURL": "https://myapp-project-123.firebaseio.com",
+    "projectId": "testapp-1bf2f",
+    "storageBucket": "testapp-1bf2f.appspot.com",
+    "messagingSenderId": "65211879809",
+    "appId": "1:193051947912:android:6287320fdb7fcbbe48c03d",
+    "measurementId": "G-8GSGZQ44ST"
+  }
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>destination</key>
+	<string>export</string>
+	<key>method</key>
+	<string>release-testing</string>
+	<key>provisioningProfiles</key>
+	<dict>
+		<key>com.prescrip</key>
+		<string>PrescripDistribution2024-10-31</string>
+		<key>com.prescrip.OneSignalNotificationServiceExtension</key>
+		<string>PrecripOS20241031</string>
+	</dict>
+	<key>signingCertificate</key>
+	<string>885166AD2E824DF0F98A609340A00CC48FD9EF1B</string>
+	<key>signingStyle</key>
+	<string>manual</string>
+	<key>stripSwiftSymbols</key>
+	<true/>
+	<key>teamID</key>
+	<string>37W4GY7YBF</string>
+	<key>thinning</key>
+	<string>&lt;none&gt;</string>
+</dict>
+</plist>
