@@ -493,7 +493,7 @@ class HomeContainer extends Component {
 
       if (masterData.length > 0) {
         this.masterData = masterData;
-        Alert.alert('496')
+         
         this.props.navigation.navigate('DataSync', {
           recentData: masterData,
           type: 'master',
